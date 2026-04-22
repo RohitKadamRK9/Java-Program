@@ -1,0 +1,14 @@
+class Opadd9
+{
+	public static void main(String []args)
+	{
+		String a = "Rohit "; 
+		String b = "Kadam";
+		
+		String c = a + b; //it works as Concatanation
+		
+		System.out.println(c);
+		
+		
+	}
+}

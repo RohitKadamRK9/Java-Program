@@ -1,0 +1,8 @@
+class CheckCount
+{
+	public static void main(String [] args)
+	{
+		System.out.println(RecArmStrong.count(124345,0));
+		
+	}
+}

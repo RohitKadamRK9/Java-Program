@@ -1,0 +1,12 @@
+class Narrowing6
+{
+	public static void main(String []args)
+	{
+		short a = 114;
+		byte b1 = (byte)a ;
+		
+		System.out.println(a);
+		System.out.println(b1);
+		
+	}
+}

@@ -1,0 +1,10 @@
+class Conditional1 
+{
+	public static void main(String[] args) 
+	{
+		int n1 = 13;
+		int n2 = 75;
+		int n3 = n1<n2 ? n1 : n2 ;
+		System.out.println("smaller no. is : " + n3);
+	}
+}

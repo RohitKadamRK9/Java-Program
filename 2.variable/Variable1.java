@@ -1,0 +1,14 @@
+class Variable1 
+{
+	public static void main(String[] args) 
+	{
+		{
+			//local variable in same block
+			int age = 12;
+			//char age = 'a';  //Compile time error
+			
+			
+			System.out.println(age);
+		}
+	}
+}

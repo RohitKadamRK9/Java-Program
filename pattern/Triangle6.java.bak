@@ -1,0 +1,24 @@
+class Triangle6
+{
+	public static void main()
+	{
+		int n = 4 ;
+		for(int i = 0 ; i<n ; i++)
+		{
+			for(int j = 0 ; j< 2*n-1-i; j++)
+			{
+				
+				
+				if(j<i-1)
+				{	
+					System.out.print("   ");
+				}
+				else
+				{
+					System.out.print("*"+"  ");
+				}
+			}
+			System.out.println();
+		}
+	}
+}

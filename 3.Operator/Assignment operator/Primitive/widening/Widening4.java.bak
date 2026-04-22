@@ -1,0 +1,16 @@
+class Widening4
+{
+	public static void main(String []args)
+	{
+		int a = 2200000000;
+		long l1 = a;
+		float f1 = a;
+		double d1 = a;
+		
+		System.out.println(a);
+		System.out.println(l1);
+		System.out.println(f1);
+		System.out.println(d1);
+		
+	}
+}

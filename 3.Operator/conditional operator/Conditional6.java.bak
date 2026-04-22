@@ -1,0 +1,10 @@
+class Conditional6
+{
+	public static void main(String[] args) 
+	{
+		int n1 = 13, n2 = 109, n3 = 951, n4 = 101;
+		
+		int n5 = n1>n2 ? (n1>n3 ? (n1>n4 ? n1 : n4) : (n3>n4 ? n3 : n4) ) : (n2>n3 ? (n2>n4 ? n2 : n4) : (n3>n4 ? n3 : n4) ) ; 
+		System.out.println("greater no. is : " + n5);
+	}
+}

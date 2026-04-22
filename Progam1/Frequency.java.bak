@@ -1,0 +1,32 @@
+class Frequency
+{
+	public static void main(String [] args) 
+	{
+		frequency(123423458);
+	}
+	
+	public static void frequency(int num) 
+	{
+		int sorted = 0;
+		for(int i = 9; i>0; i--)
+		{
+			
+			int cnt = 0;
+			for (int j = num; j!=0 ; j/=10 )
+			{
+				int last = j%10;
+				if(last == i)
+				{
+					cnt++;
+					sorted = sorted*10+last;
+				}
+			}
+			
+			if (cnt!=0)
+				{
+					System.out.println("Count of "+i+" is "+cnt); 
+				}
+		}
+		System.out.println(sorted);
+	}
+}

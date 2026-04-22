@@ -1,0 +1,19 @@
+import java.util.Scanner;
+class Buzz
+{
+	public static void main(String [] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.print("enter a number : ");
+		int num = sc.nextInt();
+		
+		if(num%7==0 || num%10 == 7)
+		{
+			System.out.print(num+" is a Buzz number");
+		}
+		else
+		{
+			System.out.print(num+" is not a Buzz number");
+		}
+	}
+}

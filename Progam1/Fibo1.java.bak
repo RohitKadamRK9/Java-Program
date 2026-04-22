@@ -1,0 +1,30 @@
+import java.util.Scanner;
+class Fibo1
+{
+	public static void main(String [] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.print("enter a Starting number : ");
+		int start = sc.nextInt();
+		
+		System.out.print("enter a ending number : ");
+		int end = sc.nextInt();
+		
+		int n1 = 0, n2 = 1, ans;
+		int count = 0;
+		
+		for(int i = 0 ; i<end ; i++)
+		{
+			
+			ans = n1+n2;
+			if(n1>start && n1<end)
+			{
+				System.out.print(n1+" ");
+				count++;
+			}
+			n1 = n2;
+			n2 = ans;
+		}
+		System.out.println("count is "+count);
+	}
+}

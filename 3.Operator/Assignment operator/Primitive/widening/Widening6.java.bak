@@ -1,0 +1,12 @@
+class Widening6
+{
+	public static void main(String []args)
+	{
+		float a = 22.2;
+		double d1 = a;
+		
+		System.out.println(a);
+		System.out.println(d1);
+		
+	}
+}

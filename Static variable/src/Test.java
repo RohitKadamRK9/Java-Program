@@ -1,0 +1,34 @@
+class Test
+{
+	static int a ;
+	static byte b;
+	static short c;
+	static long d;
+	static char e;
+	static float f;
+	static double g;
+	static boolean h;
+	static String i;
+	
+	public static void main(String [] args)
+	{
+		System.out.println("From Main");
+		System.out.println(a);
+		System.out.println(b);
+		System.out.println(c);
+		System.out.println(d);
+		System.out.println(e);
+		System.out.println(f);
+		System.out.println(g);
+		System.out.println(h);
+		System.out.println(i);
+		
+		demo();
+	}
+	
+	public static void demo()
+	{
+		System.out.println("From Demo");
+		System.out.println(a);
+	}
+}

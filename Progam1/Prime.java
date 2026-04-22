@@ -1,0 +1,28 @@
+class Prime
+{
+	public static void main(String [] args)
+	{
+		int num = 25;
+		if(prime(num))
+			{
+				System.out.println(num+" is Prime"); 
+			}
+			else
+			{
+				System.out.println(num+" is not Prime");
+			}
+	}
+	
+	public static boolean prime(int num)
+	{
+		int den = 2;
+		for (int i = den; i<=num/2 ; i++)
+		{
+			if(num % i == 0)
+			{
+				break;	
+			}
+		}
+		return num == den;
+	}
+}

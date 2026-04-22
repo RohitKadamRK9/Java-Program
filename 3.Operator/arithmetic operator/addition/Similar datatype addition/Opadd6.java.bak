@@ -1,0 +1,15 @@
+class Opadd6
+{
+	public static void main(String []args)
+	{
+		float a = 3.3f;
+		float b = 4.4;
+		
+		float c = a + b; //possible lossy conversion from int to char
+		//double c = a + b; 
+		
+		System.out.println(c);
+		
+		
+	}
+}

@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class NthFibo
+{
+	public static void main(String [] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.print("enter a fibo number position : ");
+		int nth = sc.nextInt();
+		
+		int n1 = 0, n2 = 1, ans;
+		
+		for(int i = 0 ; true ; i++)
+		{
+			ans = n1+n2;
+			if(i+1 == nth)
+			{
+				System.out.print(n1+" ");
+				break;
+			}
+			n1 = n2;
+			n2 = ans;
+		}
+	}
+}

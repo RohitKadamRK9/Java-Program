@@ -1,0 +1,32 @@
+import java.util.Scanner;
+class PerfectNo
+{
+	public static void main(String [] args)
+	{
+		Scanner sc = new Scanner(System.in);
+		System.out.print("enter a number : ");
+		int num = sc.nextInt();
+		int sum = 0;
+		int den = 1;
+		
+		while(den<=num/2)
+		{
+			if (num%den == 0)
+			{
+				sum += den;
+			}
+			den ++;
+		}
+		
+		if(sum==num)
+		{
+			System.out.print(num+" is perfect number");
+		}
+		else
+		{
+			System.out.print(num+" is not a perfect number");
+		}
+		
+		
+	}
+}

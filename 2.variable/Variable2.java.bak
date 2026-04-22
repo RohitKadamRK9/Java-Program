@@ -1,0 +1,17 @@
+class Variable2 
+{
+	public static void main(String[] args) 
+	{
+		//same local variable in different block
+		{
+			int age = 12;
+			
+			System.out.println(age);
+		}
+		{
+			byte age = 25;
+			
+			System.out.println(age);
+		}
+	}
+}
